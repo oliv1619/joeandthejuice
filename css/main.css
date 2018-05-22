@@ -10,6 +10,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'besom';
+    src: url('besom.woff') format('woff'),
+    url('besom.woff2') format('woff2'),
+    url('besom.svg') format('svg'),
+    url('besom.eot'),
+    url('besom.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
     font-size: 1em;
     line-height: 1.4;
@@ -18,7 +29,7 @@ html {
     font-style: normal;
     font-variant: normal;
     text-decoration: none;
-    color: white;
+    color: #e8e8e8;
 }
 
 body {
@@ -27,7 +38,7 @@ body {
 }
 
 a {
-    color: grey;
+    color: #f6bdd8;
 }
 
 /* Navigation */
@@ -65,11 +76,11 @@ nav ul li {}
 
 nav a {
     text-decoration: none;
-    font-family: 'Antique-Book-Cover';
+    font-family: 'besom';
     color: #f6bdd8;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 2.5em;
+    font-size: 3.5em;
 }
 
 nav a:hover {
@@ -87,26 +98,27 @@ nav {
 /* Navigation slut */
 
 h1 {
-    font-family: 'Antique-Book-Cover';
+    font-family: 'besom';
     color: #f6bdd8;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 3em;
+    font-size: 3.5em;
 }
 
 h2 {
-    font-weight: 500;
+    font-family: 'Antique-Book-Cover';
     margin-top: 40px;
-    color: white;
     text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 2em;
 }
 
 h3 {
-    font-weight: 500;
+    font-family: 'Antique-Book-Cover';
     margin-top: 40px;
     margin-bottom: 0;
     line-height: 0.5;
-    color: #f6bdd8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 section {
@@ -180,7 +192,7 @@ section {
 #splash {
     width: 100%;
     height: 100%;
-    max-height: 300px;
+    max-height: 400px;
     margin-bottom: 20px;
     overflow: hidden;
 }
